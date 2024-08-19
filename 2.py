@@ -1,3 +1,4 @@
+print("
 import re
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -164,7 +165,7 @@ from sklearn.metrics import average_precision_score, ndcg_score
 binary_relevance = [1 if i in relevant_documents else 0 for i in results]
 
 # Calculate Mean Average Precision (MAP)
-map_score = average_precision_score(binary_relevance, binary_relevance)
+map_score = average_precision_score(binary_relevance, binary_relevance)")
 
 # Calculate nDCG
 ndcg = ndcg_score([binary_relevance], [binary_relevance])
