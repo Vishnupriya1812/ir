@@ -171,3 +171,4 @@ map_score = average_precision_score(binary_relevance, binary_relevance)")
 ndcg = ndcg_score([binary_relevance], [binary_relevance])
 
 print(f"Vector Space Model - MAP: {map_score:.4f}, nDCG: {ndcg:.4f}")
+")
